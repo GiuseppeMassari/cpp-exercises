@@ -15,8 +15,8 @@ time.
 
 
 *Standard Template Library*
-- Fill a list with objects
-- Fill a list with objects (variant)
+- stl.1 Fill a list with objects
+- stl.2 Fill a list with objects (variant)
 
 *Dynamic memory*
 TODO
