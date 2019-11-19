@@ -8,15 +8,17 @@ time.
 ## Table of content
 
 *Classes and objects*
+
 - c.1: Create a class and instantiate some objects
 - c.2: Not-copyable class
 - c.3: Implement the `<' operator
 
-
 *Standard Template Library*
+
 - stl.1: Fill a list with objects
 - stl.2: Fill a list with objects (variant)
-- stl.3: Fill a list with objects and sort it
+- stl.3: Fill a list with objects and sort it (#1)
+- stl.4: Fill a list with objects and sort it (#2)
 
 *Dynamic memory*
 
