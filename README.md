@@ -15,13 +15,16 @@ time.
 
 
 *Standard Template Library*
-- stl.1 Fill a list with objects
-- stl.2 Fill a list with objects (variant)
+- stl.1: Fill a list with objects
+- stl.2: Fill a list with objects (variant)
+- stl.3: Fill a list with objects and sort it
 
 *Dynamic memory*
+
 TODO
 
 *Multi-threading*
+
 TODO
 
 ## License
