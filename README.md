@@ -5,7 +5,6 @@ This is a set of C++ programming exercises for students from Politecnico di
 Milano, and now publicly available. I expect to enrich this collection in the
 time.
 
-
 ## Table of content
 
 *Classes and objects*
@@ -21,7 +20,7 @@ time.
 
 *Dynamic memory*
 
-TODO
+- dm.1: Instantiate objects with dynamic memory allocation
 
 *Multi-threading*
 
@@ -37,7 +36,5 @@ This material is released under the Beerware license:
  As long as you retain this notice you can do whatever you want with this
  stuff. If we meet some day, and you think this stuff is worth it, you can buy
  me a beer in return.
-
- GM
 ----------------------------------------------------------------------------
 
