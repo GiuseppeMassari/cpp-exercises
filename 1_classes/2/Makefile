@@ -1,5 +1,5 @@
 
-NAME    = ex_c2
+NAME    = exercise
 CC      = g++
 CFLAGS  = -Wall -std=c++11 
 SOURCES = main.cpp person.cpp
