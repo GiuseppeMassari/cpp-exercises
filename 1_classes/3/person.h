@@ -22,7 +22,7 @@ public:
 	Person(const Person &) = delete;
 	Person & operator=(const Person &) = delete;
 
-	bool operator<(const Person & other);
+	bool operator<(const Person & other) const;
 
 	virtual ~Person();
 

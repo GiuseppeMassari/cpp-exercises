@@ -43,7 +43,7 @@ void Person::set_gender(Gender gender)
 	this->gender = gender;
 }
 
-bool Person::operator<(const Person & other) 
+bool Person::operator<(const Person & other) const
 {
 	// let's exploit the compare() member function of the class std::string
 	return (this->name.compare(other.get_name()) < 0);	
