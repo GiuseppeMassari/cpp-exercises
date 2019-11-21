@@ -49,5 +49,16 @@ bool Person::operator<(const Person & other) const
 	return (this->name.compare(other.get_name()) < 0);	
 }
 
+bool Person::operator==(const Person & other) const
+{
+	// let's exploit the compare() member function of the class std::string
+	return (this->name.compare(other.get_name()) == 0);
+}
+
+bool Person::operator>(const Person & other) const
+{
+	return !(*this < other);
+}
+
 
 } // namespace excpp

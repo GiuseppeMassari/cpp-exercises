@@ -15,7 +15,12 @@ int main(int argc, char **argv)
 	if (p1 < p2) 
 		std::cout << p1.get_name() << " <  " << p2.get_name() << endl;
 	else
-		std::cout << p2.get_name() << " <= " << p1.get_name() << endl;
+		std::cout << p1.get_name() << " >= " << p2.get_name() << endl;
+
+	if (p3 > p1)
+		std::cout << p3.get_name() << " >  " << p1.get_name() << endl;
+	else
+		std::cout << p3.get_name() << " <= " << p1.get_name() << endl;
 
 	return 0;
 }

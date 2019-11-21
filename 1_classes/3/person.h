@@ -23,6 +23,8 @@ public:
 	Person & operator=(const Person &) = delete;
 
 	bool operator<(const Person & other) const;
+	bool operator==(const Person & other) const;
+	bool operator>(const Person & other) const;
 
 	virtual ~Person();
 
