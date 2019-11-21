@@ -27,9 +27,8 @@ time.
 
 *Multi-threading*
 
-- th.1: Instantiate objects and print info in multiple threads
-- th.2: Container of threads
-
+- th.1: Instantiate objects and print info in multiple threads (#1)
+- th.2: Instantiate objects and print info in multiple threads (#2)
 
 ## License
 
