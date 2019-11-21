@@ -27,7 +27,9 @@ time.
 
 *Multi-threading*
 
-TODO
+- th.1: Instantiate objects and print info in multiple threads
+- th.2: Container of threads
+
 
 ## License
 
