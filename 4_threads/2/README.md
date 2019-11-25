@@ -1,4 +1,4 @@
-## th.1: Instantiate objects and print info in multiple threads (#2)
+## th.2: Instantiate objects and print info in multiple threads (#2)
 
 - Instantiate some `Person` objects,
 - Create a function to print the `Person` information
