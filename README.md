@@ -19,6 +19,7 @@ time.
 - stl.2: Fill a list with objects (variant)
 - stl.3: Fill a list with objects and sort it (#1)
 - stl.4: Fill a list with objects and sort it (#2)
+- stl.5: Fill a ordered container with objects
 
 *Dynamic memory*
 
