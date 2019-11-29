@@ -31,6 +31,7 @@ time.
 - th.1: Instantiate objects and print info in multiple threads (#1)
 - th.2: Instantiate objects and print info in multiple threads (#2)
 - th.3: Instantiate objects and print info in multiple threads (#3)
+- th.4: Progress bars
 
 ## License
 
