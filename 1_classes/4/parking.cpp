@@ -39,7 +39,8 @@ void Parking::leave(unsigned int slot_num)
 			return; // exit the function... no reason to go on...
 		}
 		
-		cout << "Car " << slots[slot_num].car_model << "is leaving slot " << slot_num << endl;
+		cout << "Car " << slots[slot_num].car_model << " is leaving slot "
+		     << slot_num << endl;
 		slots[slot_num].is_free = true;
 		slots[slot_num].car_model.clear();
 		free_slots_count++; // one slot is back available
