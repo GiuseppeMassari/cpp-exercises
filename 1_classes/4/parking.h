@@ -32,11 +32,14 @@ public:
 
 	unsigned int get_nr_free_slots() const;
 
+protected:
+
+	unsigned int free_slots_count;
+
 private:
 
 	vector<SlotInfo> slots;
 
-	unsigned int free_slots_count;
 
 };
 
