@@ -13,6 +13,7 @@ time.
 - c.2: Not-copyable class
 - c.3: Implement the comparison operators
 - c.4: Parking model: class with container data member
+- c.5: Parking model: inherited class
 
 *Standard Template Library*
 
