@@ -9,7 +9,8 @@ void print_progress_bar(unsigned int perc, unsigned int maxlen)
 {
 	unsigned int nr_bars = (maxlen * perc) / 100;
 	for (unsigned int i = 0; i < nr_bars; ++i) {
-		//fprintf(stderr, "|");
+		// cerr (standard error stream) is "faster" than cout since not
+		// buffered
 		cerr <<  "|";
 		this_thread::sleep_for(chrono::milliseconds(50));
 	}
