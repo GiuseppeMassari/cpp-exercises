@@ -15,7 +15,7 @@ Parking::Parking(unsigned int nr_slots)
 int Parking::park(string car_model)
 {
 	unsigned int i;
-	for (i = 0; i < this->slots.size()-1; ++i) {
+	for (i = 0; i < this->slots.size(); ++i) {
 		if (slots[i].is_free) {
 			slots[i].is_free = false;
 			slots[i].car_model = car_model;
